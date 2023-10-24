@@ -1,0 +1,31 @@
+PODS:
+  - KhenshinSecureMessage (1.0.0):
+    - Sodium (= 0.9.1)
+  - Nimble (10.0.0)
+  - Quick (5.0.1)
+  - Sodium (0.9.1)
+
+DEPENDENCIES:
+  - KhenshinSecureMessage (from `../`)
+  - Nimble
+  - Quick
+
+SPEC REPOS:
+  trunk:
+    - Nimble
+    - Quick
+    - Sodium
+
+EXTERNAL SOURCES:
+  KhenshinSecureMessage:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  KhenshinSecureMessage: 539cc8df4a5608157a0f546ad0476a46a233a1c3
+  Nimble: 5316ef81a170ce87baf72dd961f22f89a602ff84
+  Quick: 749aa754fd1e7d984f2000fe051e18a3a9809179
+  Sodium: 23d11554ecd556196d313cf6130d406dfe7ac6da
+
+PODFILE CHECKSUM: 61324e732a1de845d378e1a6a8df8a8787bcbb58
+
+COCOAPODS: 1.13.0

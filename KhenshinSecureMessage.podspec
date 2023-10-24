@@ -8,35 +8,18 @@
 
 Pod::Spec.new do |s|
   s.name             = 'KhenshinSecureMessage'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of KhenshinSecureMessage.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
+  s.version          = '1.0.0'
+  s.summary          = 'KhenshinSecureMessage allows to securely communicate with a Khenshin Server'
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  KhenshinSecureMessage uses NaCl to establish a secure channel that goes on top of a TLS connection.
                        DESC
 
-  s.homepage         = 'https://github.com/Emilio Davis/KhenshinSecureMessage'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/khipu/KhenshinSecureMessage'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Emilio Davis' => 'emilio.davis@khipu.com' }
-  s.source           = { :git => 'https://github.com/Emilio Davis/KhenshinSecureMessage.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { 'Khipu' => 'developers@khipu.com' }
+  s.source           = { :git => 'https://github.com/khipu/KhenshinSecureMessage.git', :tag => s.version.to_s }
+  s.ios.deployment_target = '12.0'
 
-  s.ios.deployment_target = '10.0'
-
-  s.source_files = 'KhenshinSecureMessage/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'KhenshinSecureMessage' => ['KhenshinSecureMessage/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.source_files  = 'KhenshinSecureMessage/Classes/**/*'
+  s.dependency 'Sodium', '0.9.1'
 end

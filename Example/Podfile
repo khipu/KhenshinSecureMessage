@@ -1,6 +1,6 @@
 use_frameworks!
 
-platform :ios, '10.0'
+platform :ios, '12.0'
 
 target 'KhenshinSecureMessage_Example' do
   pod 'KhenshinSecureMessage', :path => '../'
@@ -8,7 +8,7 @@ target 'KhenshinSecureMessage_Example' do
   target 'KhenshinSecureMessage_Tests' do
     inherit! :search_paths
 
-    pod 'Quick', '~> 2.2.0'
-    pod 'Nimble', '~> 10.0.0'
+    pod 'Quick'
+    pod 'Nimble'
   end
 end
