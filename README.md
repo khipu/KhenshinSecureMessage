@@ -1,10 +1,5 @@
 # KhenshinSecureMessage
 
-[![CI Status](https://img.shields.io/travis/Emilio Davis/KhenshinSecureMessage.svg?style=flat)](https://travis-ci.org/Emilio Davis/KhenshinSecureMessage)
-[![Version](https://img.shields.io/cocoapods/v/KhenshinSecureMessage.svg?style=flat)](https://cocoapods.org/pods/KhenshinSecureMessage)
-[![License](https://img.shields.io/cocoapods/l/KhenshinSecureMessage.svg?style=flat)](https://cocoapods.org/pods/KhenshinSecureMessage)
-[![Platform](https://img.shields.io/cocoapods/p/KhenshinSecureMessage.svg?style=flat)](https://cocoapods.org/pods/KhenshinSecureMessage)
-
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
@@ -22,7 +17,7 @@ pod 'KhenshinSecureMessage'
 
 ## Author
 
-Emilio Davis, emilio.davis@khipu.com
+Khipu, developers@khipu.com
 
 ## License
 
