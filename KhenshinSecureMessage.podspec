@@ -22,4 +22,5 @@ Pod::Spec.new do |s|
 
   s.source_files  = 'KhenshinSecureMessage/Classes/**/*'
   s.dependency 'Sodium', '0.9.1'
+  s.swift_version = '5.0'
 end
