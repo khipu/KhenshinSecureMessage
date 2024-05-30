@@ -1,0 +1,6 @@
+framework module KHTweetNacl {
+  umbrella header "KHTweetNacl-umbrella.h"
+
+  export *
+  module * { export * }
+}

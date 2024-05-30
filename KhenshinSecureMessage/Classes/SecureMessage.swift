@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import TweetNacl
+import KHTweetNacl
 
 import Foundation
 

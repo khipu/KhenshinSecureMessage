@@ -12,6 +12,6 @@
 
 #import "TweetNacl.h"
 
-FOUNDATION_EXPORT double TweetNaclVersionNumber;
-FOUNDATION_EXPORT const unsigned char TweetNaclVersionString[];
+FOUNDATION_EXPORT double KHTweetNaclVersionNumber;
+FOUNDATION_EXPORT const unsigned char KHTweetNaclVersionString[];
 

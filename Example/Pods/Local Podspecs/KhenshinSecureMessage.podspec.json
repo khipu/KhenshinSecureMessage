@@ -20,8 +20,8 @@
   },
   "source_files": "KhenshinSecureMessage/Classes/**/*",
   "dependencies": {
-    "TweetNacl": [
-      "1.0.2"
+    "KHTweetNacl": [
+
     ]
   },
   "swift_versions": "5.0",
