@@ -177,11 +177,11 @@ code_sign_if_enabled() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/KhenshinSecureMessage/KhenshinSecureMessage.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/Sodium/Sodium.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/TweetNacl/TweetNacl.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/KhenshinSecureMessage/KhenshinSecureMessage.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/Sodium/Sodium.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/TweetNacl/TweetNacl.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

@@ -44,7 +44,7 @@
 		8D9C88D4408F57608A3B109C /* Pods-KhenshinSecureMessage_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KhenshinSecureMessage_Example.release.xcconfig"; path = "Target Support Files/Pods-KhenshinSecureMessage_Example/Pods-KhenshinSecureMessage_Example.release.xcconfig"; sourceTree = "<group>"; };
 		91FCF1502005CF09216AADB6 /* Pods-KhenshinSecureMessage_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KhenshinSecureMessage_Example.debug.xcconfig"; path = "Target Support Files/Pods-KhenshinSecureMessage_Example/Pods-KhenshinSecureMessage_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		A6DB0FD81CC518201358E13B /* Pods-KhenshinSecureMessage_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KhenshinSecureMessage_Tests.debug.xcconfig"; path = "Target Support Files/Pods-KhenshinSecureMessage_Tests/Pods-KhenshinSecureMessage_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		B36C403B32FBA310FC310A29 /* KhenshinSecureMessage.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = KhenshinSecureMessage.podspec; path = ../KhenshinSecureMessage.podspec; sourceTree = "<group>"; };
+		B36C403B32FBA310FC310A29 /* KhenshinSecureMessage.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = KhenshinSecureMessage.podspec; path = ../KhenshinSecureMessage.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B809DF10545C7513A9C0ED8C /* Pods_KhenshinSecureMessage_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KhenshinSecureMessage_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E38B7A750EF828EC88E33B21 /* Pods-KhenshinSecureMessage_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KhenshinSecureMessage_Tests.release.xcconfig"; path = "Target Support Files/Pods-KhenshinSecureMessage_Tests/Pods-KhenshinSecureMessage_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -293,12 +293,12 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-KhenshinSecureMessage_Example/Pods-KhenshinSecureMessage_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/KhenshinSecureMessage/KhenshinSecureMessage.framework",
-				"${BUILT_PRODUCTS_DIR}/Sodium/Sodium.framework",
+				"${BUILT_PRODUCTS_DIR}/TweetNacl/TweetNacl.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KhenshinSecureMessage.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Sodium.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TweetNacl.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

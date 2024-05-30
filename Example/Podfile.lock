@@ -1,9 +1,9 @@
 PODS:
-  - KhenshinSecureMessage (1.0.0):
-    - Sodium (= 0.9.1)
+  - KhenshinSecureMessage (1.1.0):
+    - TweetNacl (= 1.0.2)
   - Nimble (10.0.0)
   - Quick (5.0.1)
-  - Sodium (0.9.1)
+  - TweetNacl (1.0.2)
 
 DEPENDENCIES:
   - KhenshinSecureMessage (from `../`)
@@ -14,18 +14,18 @@ SPEC REPOS:
   trunk:
     - Nimble
     - Quick
-    - Sodium
+    - TweetNacl
 
 EXTERNAL SOURCES:
   KhenshinSecureMessage:
     :path: "../"
 
 SPEC CHECKSUMS:
-  KhenshinSecureMessage: 539cc8df4a5608157a0f546ad0476a46a233a1c3
+  KhenshinSecureMessage: dfa806001304abf2579e7f9e11de4bd39ae5ea94
   Nimble: 5316ef81a170ce87baf72dd961f22f89a602ff84
   Quick: 749aa754fd1e7d984f2000fe051e18a3a9809179
-  Sodium: 23d11554ecd556196d313cf6130d406dfe7ac6da
+  TweetNacl: 3abf4d1d2082b0114e7a67410e300892448951e6
 
-PODFILE CHECKSUM: 61324e732a1de845d378e1a6a8df8a8787bcbb58
+PODFILE CHECKSUM: b0c37372981dfbf9369b0fb649fd737c275e3a56
 
-COCOAPODS: 1.13.0
+COCOAPODS: 1.15.2
