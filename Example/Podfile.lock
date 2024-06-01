@@ -1,7 +1,7 @@
 PODS:
-  - KhenshinSecureMessage (1.1.0):
-    - KHTweetNacl
-  - KHTweetNacl (1.1.1)
+  - KhenshinSecureMessage (1.3.0):
+    - KHTweetNacl (= 1.1.4)
+  - KHTweetNacl (1.1.4)
   - Nimble (10.0.0)
   - Quick (5.0.1)
 
@@ -21,8 +21,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  KhenshinSecureMessage: 9749cf55634fa02718214de1ee6b83ca44aed2cf
-  KHTweetNacl: 685b2d7625ec3c1f1894db9eaeb404d852623990
+  KhenshinSecureMessage: f0604e236fe33a3538ee01129c74c94d724bf546
+  KHTweetNacl: 405b98e955a2fdb50eb8372fde9c6b50b218e51b
   Nimble: 5316ef81a170ce87baf72dd961f22f89a602ff84
   Quick: 749aa754fd1e7d984f2000fe051e18a3a9809179
 
