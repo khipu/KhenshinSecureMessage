@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import KHTweetNacl
+import KHTweetNaclSwift
 
 import Foundation
 

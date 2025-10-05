@@ -1,0 +1,6 @@
+framework module KHTweetNaclSwift {
+  umbrella header "KHTweetNaclSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}
