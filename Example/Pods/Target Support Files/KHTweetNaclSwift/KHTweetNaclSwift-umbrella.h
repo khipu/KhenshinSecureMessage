@@ -10,8 +10,8 @@
 #endif
 #endif
 
-#import "TweetNacl.h"
+#import "TweetNaclWrapper.h"
 
-FOUNDATION_EXPORT double KHTweetNaclVersionNumber;
-FOUNDATION_EXPORT const unsigned char KHTweetNaclVersionString[];
+FOUNDATION_EXPORT double KHTweetNaclSwiftVersionNumber;
+FOUNDATION_EXPORT const unsigned char KHTweetNaclSwiftVersionString[];
 

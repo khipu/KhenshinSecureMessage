@@ -1,7 +1,7 @@
 PODS:
   - KhenshinSecureMessage (1.3.0):
-    - KHTweetNacl (= 1.1.4)
-  - KHTweetNacl (1.1.4)
+    - KHTweetNaclSwift (= 1.1.0)
+  - KHTweetNaclSwift (1.1.0)
   - Nimble (10.0.0)
   - Quick (5.0.1)
 
@@ -12,7 +12,7 @@ DEPENDENCIES:
 
 SPEC REPOS:
   trunk:
-    - KHTweetNacl
+    - KHTweetNaclSwift
     - Nimble
     - Quick
 
@@ -21,11 +21,11 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  KhenshinSecureMessage: f0604e236fe33a3538ee01129c74c94d724bf546
-  KHTweetNacl: 405b98e955a2fdb50eb8372fde9c6b50b218e51b
+  KhenshinSecureMessage: f08041a7dcf3e065678cc0be1bc9f1c3517ba0ea
+  KHTweetNaclSwift: 1a09d2967f9ecbd8d6176b30a96e1e280c1f1d90
   Nimble: 5316ef81a170ce87baf72dd961f22f89a602ff84
   Quick: 749aa754fd1e7d984f2000fe051e18a3a9809179
 
 PODFILE CHECKSUM: 61324e732a1de845d378e1a6a8df8a8787bcbb58
 
-COCOAPODS: 1.15.2
+COCOAPODS: 1.16.2
