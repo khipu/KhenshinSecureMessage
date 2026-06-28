@@ -12,8 +12,6 @@ import TweetNacl
 import KHTweetNaclSwift
 #endif
 
-import Foundation
-
 
 public class SecureMessageError : Error
 {
