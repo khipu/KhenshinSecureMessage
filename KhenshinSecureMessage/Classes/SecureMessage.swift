@@ -6,9 +6,11 @@
 //
 
 import Foundation
+#if SWIFT_PACKAGE
+import TweetNacl
+#else
 import KHTweetNaclSwift
-
-import Foundation
+#endif
 
 
 public class SecureMessageError : Error
