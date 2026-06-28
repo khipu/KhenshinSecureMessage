@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'KhenshinSecureMessage'
-  s.version          = '1.4.0'
+  s.version          = '1.4.1'
   s.summary          = 'KhenshinSecureMessage allows to securely communicate with a Khenshin Server'
   s.description      = <<-DESC
   KhenshinSecureMessage uses NaCl to establish a secure channel that goes on top of a TLS connection.

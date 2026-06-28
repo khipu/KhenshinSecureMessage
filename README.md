@@ -6,6 +6,19 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
+## Installation (Swift Package Manager)
+
+Add the package to your `Package.swift` dependencies:
+
+    .package(url: "https://github.com/khipu/KhenshinSecureMessage.git", from: "1.4.1")
+
+Then add `KhenshinSecureMessage` to your target's dependencies, or in Xcode use
+**File → Add Package Dependencies…** with the same URL.
+
+> En SPM la criptografía se provee vía `tweetnacl-swiftwrap` (módulo `TweetNacl`);
+> en CocoaPods vía `KHTweetNaclSwift`. La API (`NaclBox`/`NaclSecretBox`) es idéntica
+> y la compatibilidad está cubierta por los tests.
+
 ## Installation
 
 KhenshinSecureMessage is available through [CocoaPods](https://cocoapods.org). To install
